@@ -1,0 +1,5 @@
+#!/bin/bash
+# Author: Shahnawaz Alam
+# Date: Jun 21 2023
+# Description: This script will pull only fail messages for the syslog file. i have copied the syslog file from /var/log/ directory.
+grep -r fail /home/shahnawaz/Devops/Linux/StartingwithScript/RealLifeScript/AccessFileData/syslog

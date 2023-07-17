@@ -1,0 +1,6 @@
+#! /bin/bash
+# Author: Shahnawaz Alam
+# Date: Jun 21 2023
+# Description: this script will pull only warning message form syslog file. i have copy syslog file from /var/log directory.
+
+grep -i warning /home/shahnawaz/Devops/Linux/StartingwithScript/RealLifeScript/AccessFileData/syslog

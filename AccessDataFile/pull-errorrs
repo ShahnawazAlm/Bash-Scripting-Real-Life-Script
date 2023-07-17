@@ -1,0 +1,6 @@
+#!/bin/bash
+# Author: Shahnawaz Alam
+# Date: Jun 21 2023
+# Description: this script will pull the error msg from a file. i have copy syslog file form  /var/log/ directory.
+
+grep -i error /home/shahnawaz/Devops/Linux/StartingwithScript/RealLifeScript/AccessFileData/syslog

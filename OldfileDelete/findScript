@@ -1,0 +1,6 @@
+#!/bin/bash
+# Author: Shahnawaz Alam
+# Date: jul 18 2023
+# Description: This script will find the files older than 90 days
+
+find /home/shahnawaz/Devops -mtime +90 -exec ls {} \;

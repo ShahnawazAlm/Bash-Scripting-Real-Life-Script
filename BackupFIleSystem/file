@@ -1,0 +1,6 @@
+			Script to backup file sustem
+
+# Create a backup of /etc and /var directories using tar command.
+# Compress the backup .tar file using gzip command.
+# Write a script to automate backups.
+# 

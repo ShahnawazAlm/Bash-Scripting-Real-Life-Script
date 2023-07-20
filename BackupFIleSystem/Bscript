@@ -1,0 +1,10 @@
+#!/bin/bash
+# Author: Shahnawaz Alam
+# Date: Jul 20 2023
+# Description: this script will backup the system configuration files and compress that file or zip that file.
+
+tar cvf /tmp/Shahnawaz-Tmp/Conf.tar /etc /var
+
+gzip /tmp/Shahnawaz-Tmp/Conf.tar
+
+echo Backup was created 

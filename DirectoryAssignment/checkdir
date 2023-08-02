@@ -1,0 +1,16 @@
+#!/bin/bash
+# Author: Shahnawaz Alam
+# Date: Aug 2 2023
+# Description: This script will find directories without users or with users.
+
+cd /home
+for Var in * # Var is variable
+do
+	fnd=$(grep -c "/home/$Var" /etc/passwd)  # fnd is variable
+	if [ $fnd -ge 1]
+	then
+	echo $Var is assigned to user
+	else
+	echo $Var is Not assigned to user
+	fi
+done
